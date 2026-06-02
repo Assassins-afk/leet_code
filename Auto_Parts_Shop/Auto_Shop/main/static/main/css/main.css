@@ -1,0 +1,79 @@
+body {
+    background: #2c2c2c; /* Темно-серый фон тела страницы */
+    display: flex; /* Использует флексбокс для расположения боковых панелей */
+    min-height: 100vh; /* Минимальная высота равна высоте видимой области */
+}
+
+aside {
+    float: left; /* Выравнивает боковую панель слева */
+    background: #181818; /* Фон боковой панели */
+    width: 20%; /* Ширина боковой панели */
+    padding: 2.5%; /* Внутренние отступы */
+    height: 100vh; /* Высота боковой панели */
+    color: #fff; /* Белый цвет текста */
+    border-right: 5px solid #4d4d4d; /* Граница справа */
+}
+
+aside img {
+    width: 80px; /* Ширина логотипа */
+    float: left; /* Выравнивает логотип слева */
+}
+
+aside .logo {
+    font-size: 25px; /* Размер шрифта имени сайта */
+    margin-left: 10px; /* Отступ слева */
+    font-weight: bold; /* Жирный шрифт */
+    position: relative; /* Позиционирование относительно родителя */
+    top: 8px; /* Смещение сверху */
+}
+
+aside h3 {
+    margin-top: 50px; /* Верхний отступ */
+    font-size: 28px; /* Размер шрифта заголовка */
+}
+
+aside ul {
+    list-style: none; /* Убирает маркеры списка */
+}
+
+aside ul li {
+    color: #fff; /* Цвет текста пунктов меню */
+    display: block; /* Блоковое отображение */
+    margin-top: 20px; /* Отступ сверху */
+    transition: transform .6s ease; /* Переход при анимации */
+}
+
+aside ul li:hover,
+aside ul a:hover {
+    color: #99ff99; /* Цвет текста при наведении */
+    text-decoration: none; /* Без подчеркивания */
+    transform: scale(1.05); /* Увеличение масштаба при наведении */
+}
+
+main {
+    width: 80%; /* Ширина основного контента */
+    padding: 2.5%; /* Внутренние отступы */
+    color: #fff; /* Белый цвет текста */
+    display: flex; /* Флексбокс для центрирования */
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center; /* Вертикальное центрирование */
+}
+
+.features {
+    text-align: center; /* Выравнивание текста по центру */
+    max-width: 600px; /* Максимальная ширина секции */
+    margin: 0 auto; /* Горизонтальное центрирование */
+    color: #fff;
+}
+
+.features h1 {
+    font-size: 50px; /* Размер главного заголовка */
+    margin-bottom: 20px; /* Нижний отступ */
+}
+
+.features p {
+    line-height: 1.5; /* Межстрочный интервал */
+    margin-bottom: 20px; /* Нижний отступ */
+}
+
+
